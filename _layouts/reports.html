@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Collaboratively funded software development">
+    <meta name="keywords" content="Open Source, API">
+    <meta name="author" content="Tom Christie">
+
+    <title>{{ page.title }} - {{ site.title }}</title>
+
+      <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
+      <link href="{{ '/css/toolkit-minimal.css' | relative_url }}" rel="stylesheet">
+      <link href="{{ '/css/application-minimal.css' | relative_url }}" rel="stylesheet">
+      <link rel="icon" type="image/png" href="{{ '/img/icon.png' | relative_url }}">
+
+    <style>
+        .app-block-intro {padding: 60px 0px}
+        .block-bordered-lg {padding-top: 50px; padding-bottom: 0px}
+        .app-block-footer {background: white; padding-bottom: 20px}
+    </style>
+  </head>
+
+
+<body>
+
+    <div class="container" style="margin-bottom: -40px">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+          <div style="float: right">
+            <ul class="navbar-nav" style="padding-top: 15px">
+              <li class="nav-item" style="padding: 0 12px; display: block">
+                <a class="nav-link" href="{{ '/articles/' | relative_url }}">Articles</a>
+              </li>
+              <li class="nav-item" style="padding: 0 12px; display: block">
+                <a class="nav-link" href="{{ '/reports/'| relative_url }}">Reports</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+    </div>
+
+<div class="container">
+  <h1 id="encode-articles">
+    <a href="{{ '/' | relative_url }}">Encode</a> / <a href="{{ '/reports/' | relative_url }}">Monthly Reports</a> / {{ page.title }}
+  </h1>
+    {{ content }}
+</div>
+
+</body>
+</html>
