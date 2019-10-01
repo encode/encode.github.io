@@ -50,8 +50,9 @@ We've seen the addition of HTTP proxy support, plus support for the Trio concurr
 
 ## Databases & ORM
 
-The `databases` and `orm` packages now have a new maintainer team. We're close to having
-support for the `aiopg` database driver, in addition to the existing `asyncpg` driver.
+The `databases` and `orm` packages now have a new maintainer team.
+
+We're close to having support for the `aiopg` database driver, in addition to the existing `asyncpg` driver.
 
 ## Starlette & Uvicorn
 
