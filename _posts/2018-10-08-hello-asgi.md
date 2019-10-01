@@ -154,5 +154,3 @@ My development work here is focused on [the ASGI server, Uvicorn](https://www.uv
 Over the coming weeks I'll be writing in more detail about working with ASGI, including how to use it to build WebSocket-based applications, HTTP proxy servers, ASGI middleware, and more.
 
 Our next article will start looking in more detail at [working with HTTP in ASGI](asgi-http).
-
-<p style="float: right">&mdash; <a href="https://twitter.com/_tomchristie">Tom Christie on Twitter</a> | <a href="https://www.encode.io/feeds/articles.rss">RSS feed<a/></p>
