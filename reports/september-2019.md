@@ -5,7 +5,7 @@ title: "September 2019"
 
 ## Growing Encode
 
-There's a fairly large number of projects under the Encode umbrella:
+There's a fairly large number of projects now under the Encode umbrella:
 
 * Django REST framework - Django's leading API framework.
 * HTTPX - An HTTP/1.1 and HTTP/2 client.
