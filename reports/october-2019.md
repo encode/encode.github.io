@@ -34,13 +34,7 @@ rolling it out across the documentation for several of our other projects.
 I've been working [building out a small Starlette service](https://github.com/encode/hostedapi)
 in production.
 
-The aim of the work here initially is to help thrash out areas of the async
-web stack (`uvicorn`, `starlette`, `databases`, `orm`, `httpx`, `typesystem`) that still
-need work.
-
-By building a proper live service, we can use that experience to help drive
-areas that need work. The codebase is also a good reference point for users
-wanting to build out their own Starlette services.
+By building a proper live service, we can use that experience to help drive areas of the async web stack that need work. This will help mature each of the `uvicorn`, `starlette`, `databases`, `orm`, `httpx`, and `typesystem` projects. The codebase is also a good reference point for users wanting to build out their own Starlette services.
 
 I'm keeping [a comprehensive progress log](https://github.com/encode/hostedapi/blob/master/PROGRESS.md) of work on the service.
 
