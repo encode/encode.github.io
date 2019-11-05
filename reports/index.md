@@ -7,6 +7,7 @@ title: "Monthly Reports"
 
 ## 2019
 
+* [October 2019](october-2019)
 * [September 2019](september-2019)
 * [August 2019](august-2019)
 * [July 2019](july-2019)
