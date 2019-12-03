@@ -13,7 +13,7 @@ access to the serializer context.
 
 I'm planning on writing up the release notes and making the release this week.
 
-For [ticket 6981](https://github.com/encode/django-rest-framework/issues/6981)
+Follow [ticket 6981](https://github.com/encode/django-rest-framework/issues/6981)
 for any updates.
 
 ## HTTPX
