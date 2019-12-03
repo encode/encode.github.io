@@ -1,6 +1,6 @@
 ---
 layout: reports
-title: "October 2019"
+title: "November 2019"
 ---
 
 ## Django REST framework
