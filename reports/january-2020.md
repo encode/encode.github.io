@@ -16,7 +16,7 @@ The latest releases have reintroduced sync support, meaning that `httpx` now pro
 
 We believe that we've got the API pretty much complete at this point, so our latest releases may be considered beta releases for a 1.0 due sometime over the coming weeks.
 
-Having an HTTP client for Python with both sync and async support, plus HTTP/1.1 and HTTP/2 is a big step forward. It'll also tie in nicely with Andrew Godwin's ongoing work on bring async views to Django.
+Having an HTTP client for Python with both sync and async support, plus HTTP/1.1 and HTTP/2 is a big step forward. It'll also tie in nicely with [Andrew Godwin's ongoing work on bringing async views to Django](https://forum.djangoproject.com/t/async-performance/310/6).
 
 I'm now working on refining some of the lower level bits of the API. The intention is that we'll have a very clear interface split between the high-level client (httpx), and a low-level network interface component (httpcore).
 
