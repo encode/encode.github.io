@@ -7,7 +7,7 @@ title: "January 2020"
 
 Most work during January has been focused on HTTPX.
 
-The latest releases reintroduce sync support, meaning that `httpx` now provides:
+The latest releases have reintroduced sync support, meaning that `httpx` now provides:
 
 * Requests feature parity, with a mostly requests-compatible API.
 * Provides both standard sync APIs and async APIs.
@@ -20,8 +20,8 @@ Having an HTTP client for Python with both sync and async support, plus HTTP/1.1
 
 I'm now working on refining some of the lower level bits of the API. The intention is that we'll have a very clear interface split between the high-level client (httpx), and a low-level network interface component (httpcore).
 
-* https://github.com/encode/httpx
-* https://github.com/encode/httpcore
+* [https://github.com/encode/httpx](https://github.com/encode/httpx)
+* [https://github.com/encode/httpcore](https://github.com/encode/httpcore)
 
 This will be beneficial for a couple of reasons:
 
