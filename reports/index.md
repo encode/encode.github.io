@@ -5,6 +5,10 @@ title: "Monthly Reports"
 
 # [Encode](/) / Monthly Reports
 
+## 2020
+
+* [January 2020](january-2020)
+
 ## 2019
 
 * [December 2019](december-2019)
