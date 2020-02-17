@@ -40,6 +40,8 @@ Starlette is also used as the foundation in other higher level web frameworks, i
 
 <div class="github-card" data-github="encode/orm" data-width="400" data-height="155" data-theme="default"></div>
 
+<hr/>
+
 # Related projects
 
 The popular Markdown-based documentation generator, MkDocs. This project was originally authored by Tom Christie for the Django REST framework documentation, and is now used as the basis for all our project documentation, together with the fabulous [MkDocs material](https://squidfunk.github.io/mkdocs-material/) theme.
