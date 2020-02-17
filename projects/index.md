@@ -5,7 +5,7 @@ title: "Projects"
 
 <style>
 hr {margin-bottom: 30px}
-.main-content {text-align: center; width: 1000px}
+.main-content {text-align: center}
 </style>
 
 # Django REST framework
