@@ -3,7 +3,7 @@ layout: default
 title: "Monthly Reports"
 ---
 
-# [Encode](/) / Monthly Reports
+# Reports
 
 ## 2020
 

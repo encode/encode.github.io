@@ -25,10 +25,14 @@
 
 <body>
 
-    <div class="container" style="margin-bottom: -40px">
+    <div class="container" style="margin-bottom: -20px">
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+          <a class="navbar-brand" href="/">Encode</a>
           <div style="float: right">
             <ul class="navbar-nav" style="padding-top: 15px">
+              <li class="nav-item" style="padding: 0 12px; display: block">
+                <a class="nav-link" href="/projects/">Projects</a>
+              </li>
               <li class="nav-item" style="padding: 0 12px; display: block">
                 <a class="nav-link" href="{{ '/articles/' | relative_url }}">Articles</a>
               </li>
@@ -42,7 +46,7 @@
 
 <div class="container">
   <h1 id="encode-articles">
-    <a href="{{ '/' | relative_url }}">Encode</a> / <a href="{{ '/reports/' | relative_url }}">Monthly Reports</a> / {{ page.title }}
+    <a href="{{ '/reports/' | relative_url }}">Reports</a> / {{ page.title }}
   </h1>
     {{ content }}
 </div>

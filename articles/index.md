@@ -3,7 +3,7 @@ layout: default
 title: "Articles"
 ---
 
-# [Encode](/) / Articles
+# Articles
 
 * [On "Problems" and "Challenges"](on-problems-and-challenges)
 * [From the inside, out](from-the-inside-out)
