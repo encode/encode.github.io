@@ -10,7 +10,7 @@ hr {margin-bottom: 30px}
 
 # Django REST framework
 
-The world-leading API framework for Django, used by internationally recognised businesses worldwide, [depended on by nearly ½ million repositories](https://github.com/encode/django-rest-framework/network/dependents?package_id=UGFja2FnZS01NzA4OTExNg%3D%3D), and with [over 40 million downloads](https://pepy.tech/project/djangorestframework).
+The world-leading API framework for Django, used by internationally recognized businesses worldwide, [depended on by over 100,000 repositories](https://github.com/encode/django-rest-framework/network/dependents), and with [over 40 million downloads](https://pepy.tech/project/djangorestframework).
 
 <div class="github-card" data-github="encode/django-rest-framework" data-width="400" data-height="155" data-theme="default"></div>
 
