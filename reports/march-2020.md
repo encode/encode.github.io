@@ -39,4 +39,4 @@ Like almost every business right now, our funding situation is being impacted. I
 
 Wishing you all strength, warmth & love,
 
-- Tom
+&mdash; Tom
