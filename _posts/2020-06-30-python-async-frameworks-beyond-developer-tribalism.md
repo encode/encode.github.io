@@ -33,7 +33,7 @@ Like-for-like a single async function call in isolation will be marginally slowe
 
 What we're actually interested in is how *efficiently* we can interleave multiple concurrent tasks. In I/O bound systems co-operative concurrency (async) performs more efficiently under high concurrency than threaded concurrency (sync). Again, not contentious.
 
-Again - Async Python is not faster. It *is* more efficient. Which will *tend* to mean that on I/O bound systems, the latency will *continue* to remain low even as level of concurrency increases.
+Again - Async Python is not faster. It *is* more efficient. Which will *tend* to mean that on I/O bound systems, the latency will *continue* to remain low even as the level of concurrency increases.
 
 ### ★ There are no good benchmarks.
 
@@ -41,7 +41,7 @@ JSON "hello world" benchmarks are junk. Almost all cases of "I've created this b
 
 It's not *always* true, for example, when Sanic was introduced there was a genuine step forward which was worth talking about, so I can understand why there was a focus there. But there's still a ridiculous hype-cycle attached as a result, and we need to be really careful about trying to step beyond that.
 
-It's also reasonable if benchmarking is discussed in a reasonable context and placement. For example, to the extent that Uvicorn and Starlette have discussed performance it has only ever been with a view to making a solid case that having a *properly specified* server/framework boundary API isn't a negative performance consideration. Prior to the introduction of ASGI, Python's async web ecosystem had generally bundled together both the low-level HTTP handling and the high level framework, and there was a notion that needed dispelling that introducing a properly specified separation of concerns wasn't a good approach because *"something something performance something"*.
+It's also reasonable if benchmarking is discussed in a sensible context and placement. For example, to the extent that Uvicorn and Starlette have discussed performance it has only ever been with a view to making a solid case that having a *properly specified* server/framework boundary API isn't a negative performance consideration. Prior to the introduction of ASGI, Python's async web ecosystem had generally bundled together both the low-level HTTP handling and the high level framework, and there was a notion that needed dispelling that introducing a properly specified separation of concerns wasn't a good approach because *"something something performance something"*.
 
 If you *are* going to look at web framework benchmarks for some very rough first-pass ideas about relative efficiency then the TechEmpower benchmarks should almost certainly be your baseline, since they're at least independent, and have a decent range of test cases. If you're going to diverge from them have some good argument for doing so.
 
