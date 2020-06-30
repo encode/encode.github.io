@@ -47,7 +47,7 @@ If you *are* going to look at web framework benchmarks for some very rough first
 
 The "Async Python is not faster" benchmarking is a reasonable example here, since it had clearly applied a decent degree of thoughtfulness. Even so there were still problems with the methodology, as [Łukasz Langa did a good job of unpicking](https://twitter.com/llanga/status/1271719778324025349).
 
-Having said that, the TechEmpower benchmarks only show throughout, and don't include any *meaningful* latency information. There's actually a good reason for that, since
+Having said that, the TechEmpower benchmarks only show throughput, and don't include any *meaningful* latency information. There's actually a good reason for that, since
 comparing latencies is really difficult. You can't arrive at a single "95% latency" figure, because the figure you'll arrive at *also depends on what throughput load you're putting the system under* at the time of measuring the latency.
 
 As a result measuring latency is only ever really meaningful if you're looking at *graphs of how the latencies vary over a range of different throughputs*. Amber Brown's [DjangoCon 2019 keynote talk does a fantastic job of showing some examples here](https://www.youtube.com/watch?v=YxP1I-tm_2c).
