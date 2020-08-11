@@ -7,6 +7,7 @@ title: "Monthly Reports"
 
 ## 2020
 
+* [July 2020](july-2020)
 * [June 2020](june-2020)
 * [May 2020](may-2020)
 * [April 2020](april-2020)
