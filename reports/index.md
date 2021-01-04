@@ -7,6 +7,8 @@ title: "Monthly Reports"
 
 ## 2020
 
+* [December 2020](december-2020)
+* [November 2020](november-2020)
 * [October 2020](october-2020)
 * [September 2020](september-2020)
 * [August 2020](august-2020)
