@@ -55,3 +55,22 @@ I made the mistake this week of earmarking Friday for that work. In coming weeks
 [0]: https://github.com/tomchristie/httpcore-the-directors-cut
 [1]: https://github.com/tomchristie/httpcore-the-directors-cut/issues/3
 [2]: https://github.com/encode/httpx/issues/947#issuecomment-893576096
+
+## Weeknotes: Friday 13th August, 2021.
+
+The most significant piece of work this week has been re-assessing the automatic charset decoding policy in HTTPX.
+
+When an HTTP response is returned it'll generally have a `Content-Type` header indicating if the response is a text document, such as `text/html`, or a binary file, such as `image/jpg`. For textual content we need to pick a character set to use in order to decode the raw binary content into a unicode string.
+
+Ideally the server will indicate which encoding is being used within the `Content-Type` header, with a value such as `text/html; charset=utf-8`.
+However, the `charset` parameter isn't always present, and we need a policy to determine what to do in these cases.
+
+Previously we'd adopted a keep-it-simple policy in `httpx`, and attempted `utf-8` with fallbacks to other common encodings, but having been prompted to re-assess this, it seemed worth some time taking an evidence led approach onto determining what decoding policy to use.
+
+In [this repository](https://github.com/tomchristie/top-1000) I've taken a list of 1000 most accessed websites, and saved the downloaded content and response headers. Of these sites...
+
+* ~75% Included a Content-Type header complete with an explicit charset.
+* ~20% Did not include a charset, and decoded okay with `utf-8`.
+* ~5% Did not include a charset, and did not docode okay with `utf-8`.
+
+Based on these results we've decided to reintroduce automatic charset detection for cases that don't include a `charset` parameter. The results also demonstated sufficiently that the newer `charset_normalizer` package performed as well or better than `chardet` at detection, while being significantly faster.
