@@ -9,9 +9,9 @@ We now have a 1.0 pre-release for HTTPX.
 
 The `1.0.0.beta0` release adds a huge new feature, in the form of a command-line client...
 
-![Command line client](https://github.com/encode/httpx/raw/master/docs/img/httpx-help.png)
+<img width="700" src="https://github.com/encode/httpx/raw/master/docs/img/httpx-help.png" alt='httpx --help'>
 
-![Sending a request](https://github.com/encode/httpx/raw/master/docs/img/httpx-request.png)
+<img width="700" src="https://github.com/encode/httpx/raw/master/docs/img/httpx-request.png" alt='httpx http://httpbin.org/json'>
 
 The release also includes some design changes. The most notable of these is that
 redirect responses are no longer automatically followed, unless specifically requested.
