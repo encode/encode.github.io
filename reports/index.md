@@ -7,6 +7,7 @@ title: "Monthly Reports"
 
 ## 2021
 
+* [November 2021](november-2021)
 * [October 2021](october-2021)
 * [September 2021](september-2021)
 * [August 2021](august-2021)
