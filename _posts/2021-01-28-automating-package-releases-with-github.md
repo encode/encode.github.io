@@ -1,3 +1,9 @@
+---
+layout: articles
+title: "Automating package releases with GitHub"
+permalink: "/articles/automating-package-releases-with-github"
+---
+
 # Automating package releases with GitHub
 
 I've spent some time this week improving our release workflow on several projects in the `encode` GitHub organisation.
