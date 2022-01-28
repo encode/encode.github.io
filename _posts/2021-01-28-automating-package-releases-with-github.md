@@ -66,7 +66,7 @@ As the Trio docs state:
 
 Moreover, while the invite policy is liberal and helps encourage folks to jump in, our repository settings strictly ensure that all pull request require review and approval before they can be merged.
 
-However... there's a bit of a conflict here. While we might like having a liberal policy on bring new members onto the maintenance team, we might not want to be quite so relaxed about permissions to okay a release.
+However... there's a bit of a conflict here. While we might like having a liberal policy on bringing new members onto the maintenance team, we might not want to be quite so relaxed about permissions to okay a release.
 
 ## Operations approval for deployments
 
