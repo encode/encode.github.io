@@ -5,6 +5,7 @@ title: "Articles"
 
 # Articles
 
+* [Automating package releases with GitHub](automating-package-releases-with-github)
 * [Python async frameworks - Beyond developer tribalism](python-async-frameworks-beyond-developer-tribalism)
 * [On "Problems" and "Challenges"](on-problems-and-challenges)
 * [From the inside, out](from-the-inside-out)
