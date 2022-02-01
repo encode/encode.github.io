@@ -5,6 +5,10 @@ title: "Monthly Reports"
 
 # Reports
 
+## 2022
+
+* [January 2022](january-2022)
+
 ## 2021
 
 * [November 2021](november-2021)
