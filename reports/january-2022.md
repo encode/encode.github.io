@@ -178,6 +178,9 @@ Work on `httpcore`. Fix resource cleanup issue on task cancellation, and timeout
 * https://github.com/encode/httpcore/pull/491
 * https://github.com/encode/httpcore/pull/492
 
+"Automating package releases with GitHub" article.
+
+* https://www.encode.io/articles/automating-package-releases-with-github
 ---
 
 ## Monday 31st January
