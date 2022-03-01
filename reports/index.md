@@ -7,6 +7,7 @@ title: "Monthly Reports"
 
 ## 2022
 
+* [February 2022](february-2022)
 * [January 2022](january-2022)
 
 ## 2021
