@@ -5,7 +5,7 @@ title: "December 2021"
 
 # End of year financial report.
 
-**Income**:
+**Revenue**:
 
 * REST framework sponsorships: £44,264.74
 * GitHub sponsorships: £12,671.89
@@ -21,13 +21,13 @@ title: "December 2021"
 **Summary**:
 
 * Opening balance: £16,260.71
-* Total income: £60,536.63
+* Total revenue: £60,536.63
 * Total expenses: £65,465.76
 * Closing balance: £11,331.60
 
 ---
 
-Notes:
+**Notes**:
 
 * For tax purposes, the salary consists of both PAYE and dividends, which I've not bothered to distinguish between.
 * Similarly, I've not distinguished between personal tax and corporation tax in this breakout.
