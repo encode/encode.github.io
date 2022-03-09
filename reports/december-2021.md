@@ -3,9 +3,7 @@ layout: reports
 title: "December 2021"
 ---
 
-# December 2021
-
-## End of year financial report.
+# End of year financial report.
 
 **Income**:
 
