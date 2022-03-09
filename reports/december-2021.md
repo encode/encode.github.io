@@ -32,7 +32,7 @@ Notes:
 * For tax purposes, the salary consists of both PAYE and dividends, which I've not bothered to distinguish between.
 * Similarly, I've not distinguished between personal tax and corporation tax in this breakout.
 * Recurring services include Heroku, AWS, Domain registration, Password manager, Phone rental, Bank standing charges and others.
-* For the 2020-2021 year, working through Encode OSS was my sole income.
+* For 2021, working through Encode OSS was my sole income.
 
 ---
 
