@@ -49,7 +49,7 @@ It is feasible that the next useful piece of work here could be integrating HTTP
 
 # Financial report
 
-Sponsor income for the financial year 2019/2020 was about £60k. Less admin expenses of £13k. (office rental, accountancy costs, conference travel, cost of software services). Less corporation tax of £5k. Total remaining for salary/dividends £42k.
+Sponsor income for 2020 was about £60k. Less admin expenses of £13k. (office rental, accountancy costs, conference travel, cost of software services). Less corporation tax of £5k. Total remaining for salary/dividends £42k.
 
 At some point something will need to change here, at least a little, but we've currently enough in the business bank account to give us some runway for the time being.
 
