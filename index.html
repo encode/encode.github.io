@@ -18,34 +18,17 @@
     <style>
         .app-block-intro {padding: 60px 0px}
         .block-bordered-lg {padding-top: 50px; padding-bottom: 0px}
-        .app-block-footer {background: white; padding-bottom: 20px}
-    </style>
+        .app-block-footer {background: black; padding-bottom: 20px}
+        body {background-color: black;}
+</style>
   </head>
 
 
 <body>
 
-    <div class="container" style="margin-bottom: -40px">
 
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-          <a class="navbar-brand" href="/">Encode</a>
-          <div style="float: right">
-            <ul class="navbar-nav" style="padding-top: 15px">
-              <li class="nav-item" style="padding: 0 12px; display: block">
-                <a class="nav-link" href="/projects/">Projects</a>
-              </li>
-              <li class="nav-item" style="padding: 0 12px; display: block">
-                <a class="nav-link" href="/articles/">Articles</a>
-              </li>
-              <li class="nav-item" style="padding: 0 12px; display: block">
-                <a class="nav-link" href="/reports/">Reports</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-    </div>
 
-<div class="block app-block-intro" style="padding-top: 20px">
+<div class="block app-block-intro" style="padding-top: 40px">
   <div class="container text-center">
     <h1 class="block-title m-b-sm text-uppercase app-myphone-brand">Encode</h1>
     <p class="lead ">Collaboratively funded software development</p>
@@ -62,16 +45,6 @@
     <div class="row">
       <div class="col-sm-6">
         <ul class="featured-list">
-          <li class="m-b-lg">
-            <div class="featured-list-icon text-primary">
-              <span class="icon icon-star"></span>
-            </div>
-            <p class="featured-list-icon-text m-b-0"><strong>Fully open-source</strong></p>
-            <p class="featured-list-icon-text">
-              We're initially launching with <a href="https://fund.django-rest-framework.org/topics/funding/">paid plans for Django REST framework</a>.
-              We are also planning to extend into other related open-source products that we believe will be of benefit to our sponsors.
-            </p>
-          </li>
 
           <li class="m-b-lg">
             <div class="featured-list-icon text-primary">
@@ -80,10 +53,19 @@
             <p class="featured-list-icon-text m-b-0"><strong>An investment in your company</strong></p>
             <p class="featured-list-icon-text">
               Every new sign-up directly contributes towards more hours being available for open-source development & maintenance.
-              Our sponsorships are an opportunity to invest in the tools your engineers rely on, day after day.
+              Our sponsorships are <a href="https://github.com/sponsors/encode">an opportunity to invest</a> in the tools your engineers rely on, day after day.
             </p>
           </li>
 
+          <li class="m-b-lg">
+            <div class="featured-list-icon text-primary">
+              <span class="icon icon-star"></span>
+            </div>
+            <p class="featured-list-icon-text m-b-0"><strong>Fully open-source</strong></p>
+            <p class="featured-list-icon-text">
+              We're currently cooking up something fresh for 2025, which we'll be open-sourcing soon. Watch this space.
+            </p>
+          </li>
         </ul>
       </div>
       <div class="col-sm-6">
@@ -93,10 +75,9 @@
             <div class="featured-list-icon text-primary">
               <span class="icon icon-star"></span>
             </div>
-            <p class="featured-list-icon-text m-b-0"><strong>Rewarding our sponsors</strong></p>
+            <p class="featured-list-icon-text m-b-0"><strong>A stronger ecosystem for all</strong></p>
             <p class="featured-list-icon-text">
-              Our sponsor placements allow you to market your company to hundreds of thousands of developers worldwide.
-              Additionally, we're able to offer priority support for your engineers.
+              Working alongside others in the community we've authored and released to the public domain key parts of the Python ecosystem, including <a href="https://www.django-rest-framework.org/">Django REST framework</a>, <a href="https://www.mkdocs.org/">MkDocs</a>, <a href="https://www.uvicorn.org/">Uvicorn</a>, <a href="https://www.starlette.io/">Starlette</a> & <a href="https://www.python-httpx.org/">HTTPX</a>.
             </p>
           </li>
 
@@ -106,8 +87,7 @@
             </div>
             <p class="featured-list-icon-text m-b-0"><strong>Accountable</strong></p>
             <p class="featured-list-icon-text">
-              We'll provide <a href="/reports/">full monthly reports</a> on our project progress.
-              If you're not satisfied with how your investment is being spent at any time, let us know and we'll cancel your sponsorship, and offer to refund your current billing period.
+              Our business operation is <a href="https://github.com/encode">open & transparent</a>. We do not take equity investment, and our work is not for sale.
             </p>
           </li>
         </ul>
@@ -119,7 +99,7 @@
 <div class="block block-bordered-lg text-center">
   <div class="container-fluid" id="mc_embed_signup">
     <p class="lead m-b-md">
-      Stay up to date, with our monthly progress reports...
+      Let's keep in touch...
     </p>
     <form class="form-inline validate" action="https://encode.us13.list-manage.com/subscribe/post?u=b6b66bb5e4c7cb484a85c8dd7&amp;id=e382ef68ef" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
       <input class="form-control m-b" name="EMAIL" placeholder="Email Address">
